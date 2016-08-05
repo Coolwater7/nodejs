@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    
+  </head>
+  <body>
+  	<h3>Register User</h3>
+    <form action="/users/regUser" id="regForm" method="post">
+    	<ul>
+    		<li>account : <input type="text" name="account"></li>
+    		<li>name : <input type="text" name="name"></li>
+			<li>password : <input type="text" name="password"></li>
+			<li>email : <input type="text" name="email"></li>
+			<li>mobile : <input type="text" name="hp_no"></li>
+			<input type="submit" value="등록">
+			<input type="reset" value="취소">
+		</ul>
+
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="myfile" />
+        <input type="submit" name="upload" />
+    </form>
+  </body>
+</html>
